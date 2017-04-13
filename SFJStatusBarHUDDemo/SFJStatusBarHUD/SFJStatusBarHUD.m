@@ -76,6 +76,9 @@ static NSTimer *timer_;
     
     // 定时器
     timer_ = [NSTimer scheduledTimerWithTimeInterval:SFJMessageDuration target:self selector:@selector(hide) userInfo:nil repeats:NO];
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        
+//    });
 }
 
 + (void)showMessage:(NSString *)msg{
