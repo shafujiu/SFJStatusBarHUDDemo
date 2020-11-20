@@ -13,8 +13,6 @@
 		81E7E8841E9F62420034C9E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E7E8821E9F62420034C9E1 /* Main.storyboard */; };
 		81E7E8861E9F62420034C9E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E7E8851E9F62420034C9E1 /* Assets.xcassets */; };
 		81E7E8891E9F62420034C9E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E7E8871E9F62420034C9E1 /* LaunchScreen.storyboard */; };
-		81E7E8941E9F62420034C9E1 /* SFJStatusBarHUDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7E8931E9F62420034C9E1 /* SFJStatusBarHUDDemoTests.m */; };
-		81E7E89F1E9F62420034C9E1 /* SFJStatusBarHUDDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7E89E1E9F62420034C9E1 /* SFJStatusBarHUDDemoUITests.m */; };
 		81E7E8B01E9F62770034C9E1 /* SFJStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 81E7E8AD1E9F62770034C9E1 /* SFJStatusBarHUD.bundle */; };
 		81E7E8B11E9F62770034C9E1 /* SFJStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E7E8AF1E9F62770034C9E1 /* SFJStatusBarHUD.m */; };
 /* End PBXBuildFile section */
@@ -48,11 +46,7 @@
 		81E7E8881E9F62420034C9E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81E7E88A1E9F62420034C9E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81E7E88F1E9F62420034C9E1 /* SFJStatusBarHUDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFJStatusBarHUDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		81E7E8931E9F62420034C9E1 /* SFJStatusBarHUDDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFJStatusBarHUDDemoTests.m; sourceTree = "<group>"; };
-		81E7E8951E9F62420034C9E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81E7E89A1E9F62420034C9E1 /* SFJStatusBarHUDDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFJStatusBarHUDDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		81E7E89E1E9F62420034C9E1 /* SFJStatusBarHUDDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFJStatusBarHUDDemoUITests.m; sourceTree = "<group>"; };
-		81E7E8A01E9F62420034C9E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81E7E8AD1E9F62770034C9E1 /* SFJStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SFJStatusBarHUD.bundle; sourceTree = "<group>"; };
 		81E7E8AE1E9F62770034C9E1 /* SFJStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFJStatusBarHUD.h; sourceTree = "<group>"; };
 		81E7E8AF1E9F62770034C9E1 /* SFJStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFJStatusBarHUD.m; sourceTree = "<group>"; };
@@ -87,8 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				81E7E8781E9F62420034C9E1 /* SFJStatusBarHUDDemo */,
-				81E7E8921E9F62420034C9E1 /* SFJStatusBarHUDDemoTests */,
-				81E7E89D1E9F62420034C9E1 /* SFJStatusBarHUDDemoUITests */,
 				81E7E8771E9F62420034C9E1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -126,24 +118,6 @@
 				81E7E87A1E9F62420034C9E1 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		81E7E8921E9F62420034C9E1 /* SFJStatusBarHUDDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				81E7E8931E9F62420034C9E1 /* SFJStatusBarHUDDemoTests.m */,
-				81E7E8951E9F62420034C9E1 /* Info.plist */,
-			);
-			path = SFJStatusBarHUDDemoTests;
-			sourceTree = "<group>";
-		};
-		81E7E89D1E9F62420034C9E1 /* SFJStatusBarHUDDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				81E7E89E1E9F62420034C9E1 /* SFJStatusBarHUDDemoUITests.m */,
-				81E7E8A01E9F62420034C9E1 /* Info.plist */,
-			);
-			path = SFJStatusBarHUDDemoUITests;
 			sourceTree = "<group>";
 		};
 		81E7E8AC1E9F62770034C9E1 /* SFJStatusBarHUD */ = {
@@ -223,6 +197,7 @@
 				TargetAttributes = {
 					81E7E8751E9F62420034C9E1 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = C67ZA79SMN;
 						ProvisioningStyle = Automatic;
 					};
 					81E7E88E1E9F62420034C9E1 = {
@@ -244,6 +219,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -303,7 +279,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81E7E8941E9F62420034C9E1 /* SFJStatusBarHUDDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,7 +286,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81E7E89F1E9F62420034C9E1 /* SFJStatusBarHUDDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +343,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -418,6 +393,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -446,7 +422,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C67ZA79SMN;
 				INFOPLIST_FILE = SFJStatusBarHUDDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shafujiu.SFJStatusBarHUDDemo;
@@ -458,7 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = C67ZA79SMN;
 				INFOPLIST_FILE = SFJStatusBarHUDDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shafujiu.SFJStatusBarHUDDemo;
@@ -535,6 +511,7 @@
 				81E7E8A51E9F62420034C9E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81E7E8A61E9F62420034C9E1 /* Build configuration list for PBXNativeTarget "SFJStatusBarHUDDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +520,7 @@
 				81E7E8A81E9F62420034C9E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81E7E8A91E9F62420034C9E1 /* Build configuration list for PBXNativeTarget "SFJStatusBarHUDDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -551,6 +529,7 @@
 				81E7E8AB1E9F62420034C9E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
